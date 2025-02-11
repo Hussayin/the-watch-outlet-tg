@@ -1,10 +1,8 @@
-import { m } from "framer-motion";
 import {
   tissotLogo,
   longinesLogo,
   fredriqueLogo,
-  rolexLogo,
-  westLogo,
+  mauriceLogo,
 } from "../../assets/Images";
 
 //! data for populor products
@@ -131,52 +129,51 @@ export const PopulorWatch = [
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Slimline-FC-723WR3S6.webp",
   },
-  // {
-  //   id: "7",
-  //   link: "/rolex",
-  //   logo: rolexLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Rolex Datejust",
-  //   rafcode: "REF-126234",
-  //   demoPrice: "15.000",
-  //   price: "10.000",
-  //   mainImage:
-  //     "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36silver.webp",
-  // },
-  // {
-  //   id: "8",
-  //   link: "/rolex",
-  //   logo: rolexLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Rolex Submariner",
-  //   rafcode: "REF-126618LN",
-  //   demoPrice: "42.000",
-  //   price: "40.000",
-  //   mainImage:
-  //     "https://watch-data.netlify.app/watch-rolex/submarinerGold/submarinerBlack.webp",
-  // },
-  // {
-  //   id: "9",
-  //   link: "/west",
-  //   logo: westLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Sowar Prima Tiffany",
-  //   rafcode: "REF-6868103337",
-  //   demoPrice: "1100",
-  //   price: "1000",
-  //   mainImage: "https://watch-data.netlify.app/west-and-watch/imper2.webp",
-  // },
-  // {
-  //   id: "10",
-  //   link: "/west",
-  //   logo: westLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "The Classics",
-  //   rafcode: "REF-6828352900",
-  //   demoPrice: "2200",
-  //   price: "2000",
-  //   mainImage: "https://watch-data.netlify.app/west-and-watch/imper11.webp",
-  // },
+  {
+    id: "11",
+    link: "/maurice",
+    logo: mauriceLogo,
+    logoWidth: "w-[100px]",
+    logoColor: "bg-white",
+    logoPa: "p-[0px]",
+    title: "Maurice Lacroix",
+    rafcode: "AI-1018SS0014324",
+    demoPrice: "1100",
+    price: "1400",
+    brend: "Maurice Lacroix",
+    mainImage:
+      "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/Maurice_LacroixAI1018SS0014324.webp",
+  },
+  {
+    id: "12",
+    link: "/maurice",
+    logo: mauriceLogo,
+    logoWidth: "w-[100px]",
+    logoColor: "bg-white",
+    logoPa: "p-[5px]",
+    title: "Vintage Rally Healey",
+    rafcode: "FC-397HDGR5B6",
+    demoPrice: "1100",
+    price: "850",
+    brend: "Fredrique Constnat",
+    mainImage:
+      "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/Maurice-Lacroix-EL1094SS0016505.webp",
+  },
+  {
+    id: "13",
+    link: "/maurice",
+    logo: mauriceLogo,
+    logoWidth: "w-[100px]",
+    logoColor: "bg-white",
+    logoPa: "p-[5px]",
+    title: "Vintage Rally Healey",
+    rafcode: "AI-6008SS00F630D",
+    demoPrice: "1100",
+    price: "2000",
+    brend: "Fredrique Constnat",
+    mainImage:
+      "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/Maurice-Lacroix-Aikon-Automatic-Date-42mm-AI6008SS00F630D.webp",
+  },
 ];
 
 //! menu controller and links

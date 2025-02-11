@@ -8,7 +8,7 @@ import MenuAll from "./MenuAll";
 
 const Enter = () => {
   return (
-    <div>
+    <div className=" mb-[75px] ">
       <Navbar />
       <Search />
       <Corusel />
