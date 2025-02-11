@@ -150,7 +150,7 @@ export const PopulorWatch = [
     logo: mauriceLogo,
     logoWidth: "w-[100px]",
     logoColor: "bg-white",
-    logoPa: "p-[5px]",
+    logoPa: "p-[0px]",
     title: "Vintage Rally Healey",
     rafcode: "FC-397HDGR5B6",
     demoPrice: "1100",
@@ -165,7 +165,7 @@ export const PopulorWatch = [
     logo: mauriceLogo,
     logoWidth: "w-[100px]",
     logoColor: "bg-white",
-    logoPa: "p-[5px]",
+    logoPa: "p-[0px]",
     title: "Vintage Rally Healey",
     rafcode: "AI-6008SS00F630D",
     demoPrice: "1100",
@@ -199,34 +199,13 @@ export const watchBrends = [
       "https://bekhruzwatch-data.netlify.app/Longines-done/Longines-HydroConquest-L3.741.4.56.6.webp",
     title: "Longines",
   },
-  // {
-  //   id: "4",
-  //   link: "/rolex",
-  //   image:
-  //     "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36green.webp",
-  //   title: "Rolex",
-  // },
   {
-    id: "5",
-    link: "/frederique",
+    id: "4",
+    link: "/maurice",
     image:
-      "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Vintage-Rally-Healey-FC-397HDGR5B6.webp",
-    title: "Frederique",
+      "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/Maurice-Lacroix-Aikon-Automatic-Date-42mm-AI6008SS00F630D.webp",
+    title: "Maurice",
   },
-  {
-    id: "6",
-    link: "/longines",
-    image:
-      "https://bekhruzwatch-data.netlify.app/Longines-done/Longines-HydroConquest-L3.741.4.56.6.webp",
-    title: "Longines",
-  },
-  // {
-  //   id: "7",
-  //   link: "/rolex",
-  //   image:
-  //     "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36green.webp",
-  //   title: "Rolex",
-  // },
 ];
 
 //! all products infos
