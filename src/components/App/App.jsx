@@ -10,6 +10,8 @@ import Frederique from "../watchs/Frederique";
 import FrederiqueDetails from "../watchDetails/FrederiqueDetails";
 import ScrollManager from "./ScrollManager";
 import AllWatches from "../compos/AllWatches";
+import MauriceDetails from "../watchDetails/MauriceDetails";
+import Maurice from "../watchs/Maurice";
 
 const App = () => {
   return (
@@ -28,6 +30,9 @@ const App = () => {
           {/* frederique */}
           <Route path="/frederique" element={<Frederique />} />
           <Route path="/frederique/:id" element={<FrederiqueDetails />} />
+          {/* Maurice */}
+          <Route path="/maurice" element={<Maurice />} />
+          <Route path="/maurice/:id" element={<MauriceDetails />} />
         </Routes>
       </BrowserRouter>
     </div>
